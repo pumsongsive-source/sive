@@ -1,0 +1,78 @@
+/* General body styles */
+body {
+    background-color: pink;
+    color: brown;
+    margin-left: 50px;
+    font-family: sans-serif; /* Added a default font for better readability */
+}
+
+/* Utility class for centering text */
+.text-center {
+    text-align: center;
+}
+
+/* Styles for the main header section */
+.main-header {
+    text-align: center;
+}
+
+.main-header img {
+    width: 200px;
+}
+
+/* Styles for the "Heading Paragraph" */
+.section-heading {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Styles for the scrolling text containers */
+.scrolling-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.scrolling-text {
+    background-color: cornsilk;
+    width: 49%; /* A little less than 50% to prevent wrapping */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Styles for horizontal rules */
+.hr-right {
+    height: 5px;
+    background-color: yellow;
+    border: none;
+    width: 50%;
+    margin-left: 50%; /* Pushes it to the right */
+}
+
+.hr-left {
+    height: 5px;
+    background-color: yellow;
+    border: none;
+    width: 50%;
+    margin-right: 50%; /* Pushes it to the left */
+}
+
+/* Styles for paragraphs and images within them */
+.content-paragraph {
+    text-align: justify;
+}
+
+.img-left {
+    float: left;
+    width: 60px;
+    border: 1px solid black;
+    margin: 0 10px 10px 0; /* Replaces hspace and vspace */
+}
+
+.img-right {
+    float: right;
+    width: 60px;
+    border: 1px solid black;
+    margin: 0 0 10px 10px; /* Replaces hspace and vspace */
+}
